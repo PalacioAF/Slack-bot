@@ -2,8 +2,6 @@ const User=require('../models/User');
 
 exports.addUser=async (user)=>{
     try {
-        console.log('add user', user)
-
         const newUser={};
         newUser.userName=user;
         
